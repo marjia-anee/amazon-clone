@@ -12,6 +12,8 @@ import Checkout from './components/Checkout/Checkout';
 import Login from './components/Login/Login';
 import { useStateValue } from './components/StateProvider/StateProvider';
 import { auth } from './components/Login/firebase';
+// import { auth } from './firebase';
+
 function App() {
   const [{user}, dispatch] = useStateValue();
 
